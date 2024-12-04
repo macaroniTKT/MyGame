@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{0d5b8f02-24e6-43b0-892d-97a758e99006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{4442e697-3ded-46fe-a4a4-dd6c4aa932ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Sub">
+      <UniqueIdentifier>{b6d5a111-3cef-4342-bdc9-466031145044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{491e4554-b376-463e-958e-fe1357be8778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Main">
+      <UniqueIdentifier>{324bc3df-9f63-40fe-b1bd-0035b65e9cfd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>Scene\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Scene\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="Machine.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Scene\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Scene\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Clear.cpp">
+      <Filter>Scene\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu.h">
+      <Filter>Scene\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>Scene\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Machine.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Scene\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Scene\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Clear.h">
+      <Filter>Scene\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>System</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
